@@ -47,7 +47,26 @@
     .header__title p::before,
     .header__title p::after {
         display: none;
-        margin: 0px;
+        margin: 0;
 
+    }
+
+    .middle__block {
+        flex-direction: column;
+        top: 900px;
+        width: 100%;
+        margin: 0 auto;
+        row-gap: 20px;
+
+    }
+    .box {
+        width: 290px;
+        height: 276px;
+        margin: 0 auto;
+    }
+
+    .box_text {
+        font-size: 22px;
+        line-height: 25px;
     }
 }

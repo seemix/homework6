@@ -37,7 +37,7 @@ blockquote, q {
 blockquote:before, blockquote:after,
 q:before, q:after {
     content: '';
-    content: none;
+
 }
 table {
     border-collapse: collapse;
@@ -163,6 +163,9 @@ table {
 .header__main .header__button {
     margin-top: 35px;
 }
+.header__main {
+    position: relative;
+}
 .nav__btn__mobile {
     display: none;
     flex-direction: column;
@@ -174,4 +177,57 @@ table {
     width: 30px;
     background: #FF7400;
     border-radius: 50px;
+}
+.middle__block {
+    position: absolute;
+    bottom: -240px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+.container {
+    background-color: #E5E5E5;
+    /*min-height: 300px;*/
+    /*height: 50vh;*/
+    height: fit-content;
+}
+.box {
+    width: 349px;
+    height: 328px;
+    background: #FFFFFF;
+    margin: 0 15px;
+    padding: 10px;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+}
+
+.box img {
+    margin: 10px auto;
+    display: block;
+}
+
+.word {
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+}
+.first__word {
+
+    color: #2C2C2C;
+}
+
+.second__word {
+    color: #c29b6f;
+}
+.box_text {
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #656363;
+}
+
+.box__h {
+    margin: 15px;
+    text-align: center;
 }
